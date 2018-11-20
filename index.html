@@ -131,7 +131,7 @@
 
 					<h4 class="perevag_ttl">Індивідуальний і профессійний підхід </h4>
 					<p class="perevag_text">В нашій клініці вдало поєднуються індивідуальний і профессійний підхід до кожного пацієнта.
-						</p>
+					</p>
 
 				</div>
 				<div class="col-md-4">
@@ -183,7 +183,7 @@
 				<div class="col-md-8">
 					<h2>Ласкаво просимо до нас! </h2>
 
-					
+
 
 					<p>Об'єднавши в стінах клініки DVM професіоналів своєї справи , одних з кращих стоматологів , їх досвід , знання і традиції
 						, ми отримали принципово новий тип стоматологічного центру , де все підпорядковано одній меті - досягненню максимально
@@ -210,54 +210,102 @@
 	</section>
 
 
-<section id="counters">
+	<section id="counters">
 		<div class="sec_ttl">
-				<h2>Про нас у цифрах</h2>
+			<h2>Про нас у цифрах</h2>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 count_item">
+					<span class="counter" data-counter-time="3000" data-counter-delay="15">
+						950
+					</span>
+					<p class="counter_text">Зубів врятовано</p>
+				</div>
+				<div class="col-md-3 count_item">
+					<span class="counter" data-counter-time="3000" data-counter-delay="15">
+						40
+					</span>
+					<p class="counter_text">Осіб персоналу</p>
+				</div>
+				<div class="col-md-3 count_item">
+					<span class="counter" data-counter-time="3000" data-counter-delay="15">
+						280
+					</span>
+					<p class="counter_text">Консультацій щомісяця</p>
+				</div>
+				<div class="col-md-3 count_item">
+					<span class="counter" data-counter-time="3000" data-counter-delay="15">
+						34
+					</span>
+					<p class="counter_text">Середнє число процедур повсіх клініках</p>
+				</div>
+
+
 			</div>
+
+		</div>
+
+	</section>
+
+	<section id="video_bg">
+
+		<div id="P1" class="player" data-property="{videoURL:'https://youtu.be/j4atVlAQOSs',containment:'#video_bg',startAt:0,mute:false,autoPlay:false,loop:true,opacity:1}">
+		</div>
+
+	</section>
+	<section id="cont_inf">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="sec_ttl">
+						<h2>Контактна інформація</h2>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<h3>Тернопіль</h3>
+
+					<p>
+						М. Тернопіль, вул. Руська 13 <br> Тел: ‎0671010777<br> ел.пошта: dvmtern@ukr.net<br>
+
+					</p>
+					<p>
+						м. Тернопіль, вул. Старий Ринок 2 <br> тел: ‎0970171010<br> ел. пошта: ел.пошта: dvmtern@ukr.net<br>
+
+					</p>
+
+					<h3>Бучач</h3>
+
+					<p>
+						м. Бучач, вул. Галицька 26 <br> тел: ‎0967430000, ‎0977771818 ‎(03544)22226
+						<br> ел.пошта: dvmtern@ukr.net<br>
+
+					</p>
+
+				</div>
+				<div id="google_map" class="col-md-6">
+					<h4>Карта проїзду</h4>
+
+					<img id="map_img" src="img/map.png" alt="map">
+				</div>
+			</div>
+		</div>
+
+
+
+	</section>
+
+<footer>
 <div class="container">
-<div class="row">
-<div class="col-md-3 count_item">
-		<span class="counter" data-counter-time="3000" data-counter-delay="15">
-				950
-			</span>
-<p class="counter_text">Зубів врятовано</p>
-</div>
-<div class="col-md-3 count_item">
-		<span class="counter" data-counter-time="3000" data-counter-delay="15">
-				40
-			</span>
-<p class="counter_text">Осіб персоналу</p>
-</div>
-<div class="col-md-3 count_item">
-		<span class="counter" data-counter-time="3000" data-counter-delay="15">
-				280
-			</span>
-<p class="counter_text">Консультацій щомісяця</p>
-</div>
-<div class="col-md-3 count_item">
-		<span class="counter" data-counter-time="3000" data-counter-delay="15">
-				34
-			</span>
-<p class="counter_text">Середнє число процедур повсіх клініках</p>
+	<div class="row">
+		<div class="col-md-12 footer_div_block">
+				<a href="/"><img class="bootom_logo" src="img/logo.png" alt="Top Logo"></a>
+				<p>DVM-Тернопіль 2018</p>
+		</div>
+	</div>
 </div>
 
-
-</div>
-
-</div>
-
-</section>
-
-<section id="video_bg">
-		
-		<div id="P1" class="player" 
-     data-property="{videoURL:'https://youtu.be/j4atVlAQOSs',containment:'#video_bg',startAt:0,mute:false,autoPlay:false,loop:true,opacity:1}">
-</div>
-	
-</section>
-
-
-
+</footer>
 
 	<div class="hidden"></div>
 
@@ -291,9 +339,9 @@
 	<script>
 		$('.counter').countUp();
 
-		jQuery(function(){
-      jQuery("#P1").YTPlayer();
-    });
+		jQuery(function () {
+			jQuery("#P1").YTPlayer();
+		});
 	</script>
 </body>
 

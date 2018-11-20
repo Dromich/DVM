@@ -111,3 +111,79 @@ body {
 	color: rgba(17, 16, 16, 0.445);
 	text-decoration: none;
 }
+#mous_indicator {
+	position: absolute;
+	z-index: 100;
+	bottom: 0;
+	left: 48%;
+	font-size: 6rem;
+	color: #333;
+	opacity: .5;
+	cursor: pointer;
+}
+#about_us {
+	padding: 6%;
+	background-image: url(../img/about_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.ovelay_d{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(255,255,255,.6);
+}
+#const_form {
+	width: 100%;
+	display: block;
+	padding: 10px;
+}
+#const_form input {
+	width: 100%;
+	margin: 10px;
+	background-color: transparent;
+	border: 1px solid gold;
+	padding: 10px;
+	border-radius: 15px;
+	box-shadow: 1px 0px 20px 2px #3333334d;
+}
+.sub_b {
+	display: block;
+	width: 60%;
+	text-align: center;
+	/* margin: 10px; */
+	background-color: gold;
+	padding: 10px;
+	text-transform: uppercase;
+	border-radius: 15px;
+	margin: 10px auto;
+	cursor: pointer;
+}
+#perevagi {
+	padding: 4%;
+	text-align: center;
+}
+.sec_ttl {
+	display: block;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.2rem;
+	padding: 10px;
+}
+.perevag_icon {
+	display: block;
+	width: 100%;
+	padding: 5px;
+	text-align: center;
+	/* border: 3px solid #333; */
+	/* border-radius: 50%; */
+	font-size: 6rem;
+	/* height: 100px; */
+	/* vertical-align: middle; */
+	margin: 0;
+}

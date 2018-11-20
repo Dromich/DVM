@@ -2,7 +2,9 @@
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="ru">
+<!--<![endif]-->
 
 <head>
 
@@ -21,76 +23,193 @@
 
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="libs/animate/animate.css">
-	
+
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/media.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+	 crossorigin="anonymous">
 
 	<script src="libs/modernizr/modernizr.js"></script>
 
 </head>
 
 <body>
-<div id="first_sk">
-	<div id="top_menu">
+	<div id="first_sk">
+		<div id="top_menu">
+			<div class="container">
+				<div class="row">
+					<div id="top_logo_div" class="col-md-4">
+						<a href="/"><img class="top_logo" src="img/logo.png" alt="Top Logo"></a>
+					</div>
+					<div class="col-md-8">
+						<nav>
+							<ul class="top-menu">
+								<li>
+									<a href="/" class="top-menu-link">Головна</a>
+								</li>
+								<li>
+									<a href="/news" class="top-menu-link">Новини</a>
+								</li>
+								<li>
+									<a href="/service.html" class="top-menu-link">Послуги</a>
+
+								</li>
+								<li>
+									<a href="/gallery" class="top-menu-link">3d тури</a>
+								</li>
+								<li>
+									<a href="/comm" class="top-menu-link">Наші відгуки</a>
+								</li>
+								<li>
+									<a href="/contact.html" class="top-menu-link">Контакти</a>
+								</li>
+								<li>
+									<a href="/contact.html" class="top-menu-link">Навчальні курси</a>
+								</li>
+
+
+							</ul>
+						</nav>
+					</div>
+
+				</div>
+			</div>
+
+
+
+
+
+		</div>
+
+
+		<div class="fotorama" data-width="100%" data-height="100%" data-fit="cover" data-nav="false" data-autoplay="true" data-loop="true">
+			<img src="img/9355.jpg" alt="top photo">
+			<img src="img/9353.jpg" alt="top photo">
+			<img src="img/367852-PAXS20-754.jpg" alt="top photo">
+		</div>
+		<div id="mous_indicator" class="animated infinite bounce delay-2s">
+			<i class="far fa-arrow-alt-circle-down"></i>
+		</div>
+
+	</div>
+	<!--END First Screen-->
+
+	<section id="perevagi">
 		<div class="container">
 			<div class="row">
-				<div id="top_logo_div" class="col-md-4">
-					<a href="/"><img class="top_logo" src="img/logo.png" alt="Top Logo"></a>
+				<div class="sec_ttl">
+					<h2>Наші переваги</h2>
 				</div>
+				<div class="col-md-4">
+
+					<div class="perevag_icon">
+						<i class="fas fa-map-marked-alt"></i>
+					</div>
+
+					<h4 class="perevag_ttl">Знаходимось в Центрі Тернополя </h4>
+					<p class="perevag_text">Тернопіль, Руська , 13 (навпрти морфологічного корпусу ТДМУ) </p>
+
+				</div>
+				<div class="col-md-4">
+
+					<div class="perevag_icon">
+						<i class="fas fa-couch"></i>
+					</div>
+
+					<h4 class="perevag_ttl">Комфортність пацієнта </h4>
+					<p class="perevag_text">Забезпечується сучасним і надійним обладнанням , застосовуваним на практиці нашими лікарями</p>
+
+				</div>
+				<div class="col-md-4">
+
+					<div class="perevag_icon">
+						<i class="fas fa-user-md"></i>
+					</div>
+
+					<h4 class="perevag_ttl">Індивідуальний і профессійний підхід </h4>
+					<p class="perevag_text">В нашій клініці вдало поєднуються індивідуальний і профессійний підхід до кожного пацієнта.
+						</p>
+
+				</div>
+				<div class="col-md-4">
+
+					<div class="perevag_icon">
+						<i class="fas fa-tooth"></i>
+					</div>
+
+					<h4 class="perevag_ttl">Новітні технології рентген діагностики</h4>
+					<p class="perevag_text">Допоможуть нашим спеціалістам точно і якісно продіагностувати стан вашого здоров"я </p>
+
+				</div>
+				<div class="col-md-4">
+
+					<div class="perevag_icon">
+						<i class="fas fa-plus-circle"></i>
+					</div>
+
+					<h4 class="perevag_ttl">Безболісність лікування </h4>
+					<p class="perevag_text">Для знеболення використовуються надтонкі голки та знеболюючий гель для ясен. Для якісної анестезії
+						- найкращі апробовані препарати, визнані у всьому світі. </p>
+
+				</div>
+				<div class="col-md-4">
+
+					<div class="perevag_icon">
+						<i class="far fa-user-circle"></i>
+					</div>
+
+					<h4 class="perevag_ttl">Повне клінічне обстеження </h4>
+					<p class="perevag_text">Ми проводимо комплексну діагностику і повне клінічне обстеження кожного пацієнта </p>
+
+				</div>
+
+
+			</div>
+		</div>
+
+
+	</section>
+
+
+
+	<section id="about_us">
+		<div class="ovelay_d"></div>
+
+		<div class="container">
+			<div class="row">
 				<div class="col-md-8">
-					<nav>
-						<ul class="top-menu">
-							<li>
-								<a href="/" class="top-menu-link">Головна</a>
-							</li>
-							<li>
-								<a href="/news" class="top-menu-link">Новини</a>
-							</li>
-							<li>
-								<a href="/service.html" class="top-menu-link">Послуги</a>
+					<h2>Ласкаво просимо до нас! </h2>
 
-							</li>
-							<li>
-								<a href="/gallery" class="top-menu-link">3d тури</a>
-							</li>
-							<li>
-								<a href="/comm" class="top-menu-link">Наші відгуки</a>
-							</li>
-							<li>
-								<a href="/contact.html" class="top-menu-link">Контакти</a>
-							</li>
-							<li>
-								<a href="/contact.html" class="top-menu-link">Навчальні курси</a>
-							</li>
+					<span class="counter" data-counter-time="3000" data-counter-delay="15">
+						350
+					</span>
 
+					<p>Об'єднавши в стінах клініки DVM професіоналів своєї справи , одних з кращих стоматологів , їх досвід , знання і традиції
+						, ми отримали принципово новий тип стоматологічного центру , де все підпорядковано одній меті - досягненню максимально
+						високого рівня лікування зубів . Для наших фахівців лікування зубів - це , перш за все , безболісність і комфортність
+						для пацієнта , а також комплексний підхід до кожного клінічного випадку. Комфортність забезпечується сучасним і надійним
+						обладнанням , застосовуваним на практиці нашими докторами.</p>
+				</div>
+				<div class="col-md-4">
+					<h3>Записатися на консультацiю</h3>
 
-						</ul>
-					</nav>
+					<form action="" id="const_form">
+						<input type="text" name="Name" placeholder="Ваше імʼя">
+						<input type="tel" name="Tell" placeholder="Ваш телефон">
+						<div class="sub_b">Записатись</div>
+
+					</form>
+
 				</div>
 
 			</div>
 		</div>
 
 
+	</section>
 
-
-
-	</div>
-
-
-	<div class="fotorama" data-width="100%" data-height="100%" data-fit="cover" data-nav="false" data-autoplay="true" data-loop="true">
-		<img src="img/9355.jpg" alt="top photo">
-		<img src="img/9353.jpg" alt="top photo">
-		<img src="img/367852-PAXS20-754.jpg" alt="top photo">
-	</div>
-<div id="mous_indicator">
-	
-</div>
-
-</div><!--END First Screen-->
-	
-	
 	<div class="hidden"></div>
 
 	<div class="loader">
@@ -104,17 +223,24 @@
 	<script src="libs/respond/respond.min.js"></script>
 	<![endif]-->
 
+
 	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
 	<script src="libs/waypoints/waypoints.min.js"></script>
 	<script src="libs/animate/animate-css.js"></script>
 	<script src="libs/plugins-scroll/plugins-scroll.js"></script>
-	
+
 	<script src="js/common.js"></script>
+	<script src="js/jquery.countup.min.js"></script>
 
 
 	<!-- fotorama.css & fotorama.js. -->
-<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
-<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
-	
+	<link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+	<!-- 3 KB -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+	<!-- 16 KB -->
+	<script>
+		$('.counter').countUp();
+	</script>
 </body>
+
 </html>

@@ -27,6 +27,7 @@
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/jquery.mb.YTPlayer.min.css">
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
 	 crossorigin="anonymous">
@@ -182,9 +183,7 @@
 				<div class="col-md-8">
 					<h2>Ласкаво просимо до нас! </h2>
 
-					<span class="counter" data-counter-time="3000" data-counter-delay="15">
-						350
-					</span>
+					
 
 					<p>Об'єднавши в стінах клініки DVM професіоналів своєї справи , одних з кращих стоматологів , їх досвід , знання і традиції
 						, ми отримали принципово новий тип стоматологічного центру , де все підпорядковано одній меті - досягненню максимально
@@ -210,6 +209,56 @@
 
 	</section>
 
+
+<section id="counters">
+		<div class="sec_ttl">
+				<h2>Про нас у цифрах</h2>
+			</div>
+<div class="container">
+<div class="row">
+<div class="col-md-3 count_item">
+		<span class="counter" data-counter-time="3000" data-counter-delay="15">
+				950
+			</span>
+<p class="counter_text">Зубів врятовано</p>
+</div>
+<div class="col-md-3 count_item">
+		<span class="counter" data-counter-time="3000" data-counter-delay="15">
+				40
+			</span>
+<p class="counter_text">Осіб персоналу</p>
+</div>
+<div class="col-md-3 count_item">
+		<span class="counter" data-counter-time="3000" data-counter-delay="15">
+				280
+			</span>
+<p class="counter_text">Консультацій щомісяця</p>
+</div>
+<div class="col-md-3 count_item">
+		<span class="counter" data-counter-time="3000" data-counter-delay="15">
+				34
+			</span>
+<p class="counter_text">Середнє число процедур повсіх клініках</p>
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+<section id="video_bg">
+		
+		<div id="P1" class="player" 
+     data-property="{videoURL:'https://youtu.be/j4atVlAQOSs',containment:'#video_bg',startAt:0,mute:false,autoPlay:false,loop:true,opacity:1}">
+</div>
+	
+</section>
+
+
+
+
 	<div class="hidden"></div>
 
 	<div class="loader">
@@ -231,6 +280,7 @@
 
 	<script src="js/common.js"></script>
 	<script src="js/jquery.countup.min.js"></script>
+	<script src="js/jquery.mb.YTPlayer.min.js"></script>
 
 
 	<!-- fotorama.css & fotorama.js. -->
@@ -240,6 +290,10 @@
 	<!-- 16 KB -->
 	<script>
 		$('.counter').countUp();
+
+		jQuery(function(){
+      jQuery("#P1").YTPlayer();
+    });
 	</script>
 </body>
 

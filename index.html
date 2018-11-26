@@ -387,7 +387,8 @@
     ham: $('.menu'),
     menuTop: $('.menu-top'),
     menuMiddle: $('.menu-middle'),
-    menuBottom: $('.menu-bottom')
+	menuBottom: $('.menu-bottom'),
+	menuCont:$('.mob-menu')
   },
   
   init: function() {
@@ -408,7 +409,8 @@
   activateMenu: function() {
     Menu.el.menuTop.toggleClass('menu-top-click');
     Menu.el.menuMiddle.toggleClass('menu-middle-click');
-    Menu.el.menuBottom.toggleClass('menu-bottom-click'); 
+	Menu.el.menuBottom.toggleClass('menu-bottom-click');
+	Menu.el.menuCont.toggleClass('mob_menu_sho'); 
   }
 };
 

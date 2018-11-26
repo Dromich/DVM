@@ -19,6 +19,9 @@
 	.mob-menu{
 		display: block;
 	}
+	.menu{
+		display: block;
+	}
 	
 	/*Disable Animation on Mobile Devices*/
 	.animated {

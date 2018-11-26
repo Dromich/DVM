@@ -126,15 +126,24 @@ body {
 	top: 80px;
 	transition: all .5s;
 }
+.mob_menu_sho{
+	
+	right: 0;	
+	transition: all .5s;
+
+}
 .mob-menu li a {
 	color: #333;	
 	padding: 0;
+}
+.menu{
+	display: none;
 }
 /*=======================================*/
 
 .menu {
 	cursor: pointer;
-	margin: 15px auto;
+	margin: 30px auto;
 	padding-left: 1.25em;
 	position: relative;
 	width: 40px;
@@ -152,10 +161,10 @@ body {
 	top: 0;
   }
   .menu-middle {
-	top: 18px;
+	top: 12px;
   }
   .menu-bottom {
-	top: 36px;
+	top: 24px;
   }
   .menu-top-click {
 	backface-visibility: hidden;

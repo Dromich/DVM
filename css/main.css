@@ -111,6 +111,70 @@ body {
 	color: rgba(17, 16, 16, 0.445);
 	text-decoration: none;
 }
+.mob-menu{
+	display: none;
+}
+.mob-menu {
+	list-style: none;
+	padding: 10px;
+	margin: 0;
+	position: absolute;
+	background-color: rgba(255,255,255,.8);
+	text-align: left;
+	right: -160px;
+	width: 160px;
+	top: 80px;
+	transition: all .5s;
+}
+.mob-menu li a {
+	color: #333;	
+	padding: 0;
+}
+/*=======================================*/
+
+.menu {
+	cursor: pointer;
+	margin: 15px auto;
+	padding-left: 1.25em;
+	position: relative;
+	width: 40px;
+	height: 40px;
+}
+  .menu-global {
+	backface-visibility: hidden;
+	position: absolute;
+	left: 0;
+	border-top: 2px solid #333;
+	width: 100%;
+	transition: 0.55s;
+  }
+  .menu-top {
+	top: 0;
+  }
+  .menu-middle {
+	top: 18px;
+  }
+  .menu-bottom {
+	top: 36px;
+  }
+  .menu-top-click {
+	backface-visibility: hidden;
+	top: 15px;
+	transform: rotate(50deg);
+	transition: 0.55s 0.5s;
+  }
+  .menu-middle-click {
+	opacity: 0;
+  }
+  .menu-bottom-click {
+	backface-visibility: hidden;
+	top: 15px;
+	transform: rotate(-410deg);
+	transition: 0.55s 0.5s;
+  }
+
+/*======================================*/
+
 #mous_indicator {
 	position: absolute;
 	z-index: 100;
@@ -195,6 +259,10 @@ body {
 	font-weight: 600;
 	color: #f2cf18;
 }
+#counters {
+	background-color: #191a1b;
+	color: #fff;
+}
 .counter {
 	border: 5px solid;
 	padding: 45px;
@@ -207,7 +275,7 @@ body {
 	margin: 0 auto;
 }
 .counter_text {
-	color: #333;
+	color: #fff;
 	font-size: 2rem;
 	position: relative;
 	padding: 25px;

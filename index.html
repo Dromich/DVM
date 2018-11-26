@@ -41,11 +41,46 @@
 		<div id="top_menu">
 			<div class="container">
 				<div class="row">
-					<div id="top_logo_div" class="col-md-4">
+					<div id="top_logo_div" class="col-md-4 col-xs-8">
 						<a href="/"><img class="top_logo" src="img/logo.png" alt="Top Logo"></a>
 					</div>
-					<div class="col-md-8">
+					<div class="col-md-8 col-xs-4">
+							<div class="menu">
+									<span class="menu-global menu-top"></span>
+									<span class="menu-global menu-middle"></span>
+									<span class="menu-global menu-bottom"></span>
+								  </div>
+						
 						<nav>
+								<ul class="mob-menu">
+										<li>
+											<a href="/" class="top-menu-link">Головна</a>
+										</li>
+										<li>
+											<a href="/news" class="top-menu-link">Новини</a>
+										</li>
+										<li>
+											<a href="/service.html" class="top-menu-link">Послуги</a>
+		
+										</li>
+										<li>
+											<a href="/gallery" class="top-menu-link">3d тури</a>
+										</li>
+										<li>
+											<a href="/comm" class="top-menu-link">Наші відгуки</a>
+										</li>
+										<li>
+											<a href="/contact.html" class="top-menu-link">Контакти</a>
+										</li>
+										<li>
+											<a href="/contact.html" class="top-menu-link">Навчальні курси</a>
+										</li>
+		
+		
+									</ul>
+
+
+
 							<ul class="top-menu">
 								<li>
 									<a href="/" class="top-menu-link">Головна</a>
@@ -343,6 +378,44 @@
 			jQuery("#P1").YTPlayer();
 		});
 	</script>
+
+<script>
+
+	var Menu = {
+  
+  el: {
+    ham: $('.menu'),
+    menuTop: $('.menu-top'),
+    menuMiddle: $('.menu-middle'),
+    menuBottom: $('.menu-bottom')
+  },
+  
+  init: function() {
+    Menu.bindUIactions();
+  },
+  
+  bindUIactions: function() {
+    Menu.el.ham
+        .on(
+          'click',
+        function(event) {
+        Menu.activateMenu(event);
+        event.preventDefault();
+      }
+    );
+  },
+  
+  activateMenu: function() {
+    Menu.el.menuTop.toggleClass('menu-top-click');
+    Menu.el.menuMiddle.toggleClass('menu-middle-click');
+    Menu.el.menuBottom.toggleClass('menu-bottom-click'); 
+  }
+};
+
+Menu.init();
+
+</script>
+
 </body>
 
 </html>
